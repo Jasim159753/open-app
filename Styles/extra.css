@@ -147,7 +147,7 @@ section {
   height: 90%;
   width: 68%;
   margin-left: 4rem;
-  background: url("../img/download.webp");
+  background: url("../resources/download.webp");
   transition: all 0.4s ease-in-out;
 }
 
@@ -156,6 +156,7 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
+  border-radius: var(--br-sm-2);
 }
 
 .header-content .right-header {
